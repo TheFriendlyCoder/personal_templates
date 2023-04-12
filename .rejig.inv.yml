@@ -1,0 +1,4 @@
+templates:
+  - type: git
+    source: ./python_template
+    alias: python

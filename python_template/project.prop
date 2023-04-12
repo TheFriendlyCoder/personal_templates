@@ -1,0 +1,29 @@
+# This file contains a single dictionary definition containing all of the
+# project-specific customization options supported by this template. It is
+# parsed by the setup.py at build time.
+{
+    "NAME" : "{{project_name}}",
+    "REPO" : "{{project_name}}",
+    "DEPENDENCIES" : [
+    ],
+    "DEV_DEPENDENCIES" : [
+        "pytest",
+        "pytest-cov",
+        "pytest-json-report",
+        "mock",
+        "pylint",
+        "sphinx",
+        "sphinxcontrib-apidoc",
+        "sphinx-rtd-theme",
+        "tox",
+        "tox-factor",
+        "tox-pyenv",
+        # pinning coverage package until bugs with coveralls plugin is fixed
+        # https://github.com/z4r/python-coveralls/issues/73
+        "coverage<5.0",
+    ],
+    "DESCRIPTION" : "{{description}}",
+    "KEYWORDS" : "tags go here",
+    "SUPPORTED_PYTHON_VERSION" :
+        ">=3.5.0, <4",
+}
