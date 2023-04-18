@@ -1,3 +1,5 @@
 templates:
   - source: ./python_template
     name: python
+  - source: ./rust_template
+    name: rust
