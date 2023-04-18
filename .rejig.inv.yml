@@ -1,4 +1,3 @@
 templates:
-  - type: git
-    source: ./python_template
+  - source: ./python_template
     name: python
