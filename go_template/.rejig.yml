@@ -1,0 +1,18 @@
+versions:
+  schema: 1.0
+  rejigger: 0.0.1
+  template: 1.0
+template:
+  args:
+    - name: project_name
+      description: Name of the source code project
+    - name: app_name
+      description: name of the app binary for the project
+    - name: description
+      description: short summary of the new project
+    - name: author
+      description: Name of the person who owns the new project
+    - name: version
+      description: Initial version number for the project
+    - name: config_file
+      description: File name of the config file for the app
